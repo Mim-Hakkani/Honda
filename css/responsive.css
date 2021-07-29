@@ -20,7 +20,23 @@
     .accordion p{
         font-size: 12px;
     }
+    .honda-datails {
+        box-shadow: rgb(220, 176, 156) 0px 6px 15px;
+        display: inline-block;
+        width: 90%;
+        padding: 28px;
+        border-radius: 34%;
+    }
 }
-
+/* medium devices (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 654px) and (max-device-width : 1159px){
+    .honda-datails {
+        box-shadow: rgb(220, 176, 156) 0px 6px 15px;
+        display: inline-block;
+        width: 70%;
+        padding: 28px;
+        border-radius: 34%;
+    }
+}
 
 

@@ -60,10 +60,32 @@ h1{
 }
 
 p{
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 15px;
+	line-height: 26px;
 	font-weight: 400;
 	color: #6C6C6C;
 }
 
-/**************** 2. Header Area ********/
+/**************** 3. Fetured Bike section ********/
+.borderr{
+	border: 1px solid #E76F51;
+	width: 6%;
+	margin:8px auto;
+}
+
+/**************** 4. Latest News Section ********/
+.btn-warning{
+	background: #E76F51;
+	color:#fff;
+	border: 1px solid #E76F51;
+
+}
+.btn-outline-warning{
+	color:#E76F51;
+	border:1px solid #E76F51;
+}
+.btn-outline-warning:hover{
+	background: #E76F51;
+	color: #fff;
+	border:1px solid #E76F51;
+}

@@ -34,7 +34,7 @@
 	4. Latest News
 	5. Happy Clints Area
 	6. FaQ Section
-	7. Honda Engine Description
+	7. Honda addtion section
 	8. Why Choose Us 
 	8. Footer Area
 
@@ -49,8 +49,8 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
-	/*font-family: 'Inter', sans-serif; color:#7E848C     //#E76F51
-	font-family: 'Manrope', sans-serif;*/
+	
+	/*font-family: 'Manrope', sans-serif;*/
 }
 
 h1{
@@ -88,4 +88,40 @@ p{
 	background: #E76F51;
 	color: #fff;
 	border:1px solid #E76F51;
+}
+/************** 6. FaQ Section ************************/
+.accordion{
+	font-family: 'Inter', sans-serif;
+}
+.accordion h5{
+	line-height: 30px;
+	font-weight: 500;
+}
+.accordion p{
+	color:#7E848C;
+}
+
+/************** 8.Why Choose Us ************************/
+
+.honda-datails{
+	
+}
+/************** 8.Why Choose Us ************************/
+.icon{
+    height: 55px;
+    width: 55px;
+    background: #E76F51;
+    border-radius: 50%;
+}
+.icon i{
+	text-align: center;
+    display: block;
+    top: 15px;
+    position: absolute;
+    left: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+.text h3{
+	font-weight: 400;
 }

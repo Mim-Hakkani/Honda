@@ -11,6 +11,15 @@
     p{
         font-size: 14px;
     }
+    .accordion-header h5{
+        font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    }
+    
+    .accordion p{
+        font-size: 12px;
+    }
 }
 
 

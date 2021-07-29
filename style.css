@@ -50,7 +50,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	
-	/*font-family: 'Manrope', sans-serif;*/
+	
 }
 
 h1{
@@ -64,6 +64,19 @@ p{
 	line-height: 26px;
 	font-weight: 400;
 	color: #6C6C6C;
+}
+/**************** 2. Header Area ********/
+
+.header-btn {
+	background-color:#E76F51;
+	padding: 8px 35px;
+	border: 1px solid #E76F51;
+	color: #fff;
+	border-radius: 5px;
+}
+.header-btn:hover{
+	background-color:#f39179;
+	transition: 1s;
 }
 
 /**************** 3. Fetured Bike section ********/
@@ -87,7 +100,7 @@ p{
 	color:#7E848C;
 }
 
-/************** 8.Why Choose Us ************************/
+/************** Honda addtion section************************/
 
 .honda-datails{
 
@@ -116,4 +129,9 @@ p{
 }
 .text h3{
 	font-weight: 400;
+}
+
+/************** footer section ************************/
+footer{
+	font-family: 'Manrope', sans-serif;
 }

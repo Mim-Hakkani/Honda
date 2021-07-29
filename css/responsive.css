@@ -5,6 +5,9 @@
         font-size: 25px;
     
     }
+    .header-text{
+        width: 100%;
+    }
     .card-title{
         font-size: 17px;
     }
@@ -30,6 +33,9 @@
 }
 /* medium devices (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 654px) and (max-device-width : 1159px){
+    .header-text{
+        width: 100%;
+    }
     .honda-datails {
         box-shadow: rgb(220, 176, 156) 0px 6px 15px;
         display: inline-block;

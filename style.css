@@ -1,13 +1,27 @@
+/*---------------------------------- Google Fonts import -----------------------------------*/
+
+/*body all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,600&display=swap');
+
+/*FaQ fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/*footer fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Manrope&display=swap');
+
+
+/*------------------------------------------------------------------------------------*/
+
 /*-----------------------------------------------------------------------------------
 
-	Template Name: phototime
-	Template URI: http://www.softtech-it.com
-	Description: photo related template
-	Author: Hasan Mahmud
-	Author URI: http://www.HN-Mahmud.com
+	Template Name: Hero Honda Production
+	Template URI: http://www.hakkanimim.com
+	Description: Motor bike website template
+	Author: Golam Hakkami Mim
+	Author URI: http://www.hakkani-it.com
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
-	Version: 1.0
+	Version: 3.0.0
 
 -----------------------------------------------------------------------------------
 
@@ -15,17 +29,41 @@
 	2. Header Area
 		2.1 Menu Area
 		2.2 Welcome Text 
-		2.3 Social Media 
-	3. Getting Started
-	4. Design Area
-	5. Community Area
-	6. Subscribe Area
-	7. Download Area
+		2.3 Honda image
+	3. Fetured Bike section
+	4. Latest News
+	5. Happy Clints Area
+	6. FaQ Section
+	7. Honda Engine Description
+	8. Why Choose Us 
 	8. Footer Area
 
 -----------------------------------------------------------------------------------*/
 
 /************** 1. Typography ************************/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
 
+body{
+	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Inter', sans-serif; color:#7E848C     //#E76F51
+	font-family: 'Manrope', sans-serif;*/
+}
+
+h1{
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 56px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #6C6C6C;
+}
 
 /**************** 2. Header Area ********/
